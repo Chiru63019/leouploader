@@ -45,7 +45,11 @@ async def start(_,message):
         )
     )
 
-
+@bot.on_message(filters.command("Stop"))
+async def restart_handler(_, m):
+    await m.reply_text("🚯 **ꜱᴛᴏᴘᴘᴇᴅ** 🚯", True)
+    os.execl(sys.executable, sys.executable, *sys.argv)
+    
 @bot.on_message(filters.command("Restart"))
 async def restart_handler(_, m):
     await m.reply_text("**Restarted**🚦", True)
