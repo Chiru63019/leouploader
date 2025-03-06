@@ -11,15 +11,15 @@
     "success_url": "https://t.me/AdityaDiscus",
     "stack": "container",
     "env": {
-        "API_ID": {
+        "api_id": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
             "required": true
         },
-        "API_HASH": {
+        "api_hash": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑯𝒂𝒔𝒉",
             "required": true
         },
-        "BOT_TOKEN": {
+        "bot_token": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏",
             "required": true
         },
